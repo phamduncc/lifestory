@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:life_story/Screen/Home/homeScreen.dart';
 class Body extends StatefulWidget {
   const Body({Key? key}) : super(key: key);
 
@@ -9,7 +10,6 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
-    // bool isclick=c.isclickedlogin as bool;
     bool showPass = false;
     return Center(
       child: Container(
@@ -66,7 +66,7 @@ class _BodyState extends State<Body> {
               minWidth: 380.0,
               color: Color.fromRGBO(88, 185, 255, 1),
               onPressed: (){
-                // Get.to(HomeScreen());
+                Get.to(HomeScreen());
               },
               child: Text(
                 "Đăng Nhập",

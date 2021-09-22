@@ -6,10 +6,10 @@ import 'package:life_story/Screen/Registor/registor.dart';
 import 'Screen/Login/loginScreen.dart';
 
 void main() {
-  runApp(MainScreen());
+  runApp(MyApp());
 }
-class MainScreen extends StatelessWidget {
-  const MainScreen({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
